@@ -1,0 +1,11 @@
+azure:
+  cosmosdb:
+    uri: https://ecommercev1.documents.azure.com:443/
+    key: "lOmIfTbFXHb44MpKLJ3ZYbtbYEXIQLCtePqueFkEyXQLoAygR1FLpJ61ZfnYFMifRV1KTGWrxSVRACDb9N3Ymw=="
+    database: ToDoList
+    collection: Items
+    is-local: true
+    content-response-on-write-enabled: false
+
+server:
+  port: 8030
