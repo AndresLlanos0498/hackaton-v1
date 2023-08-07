@@ -1,5 +1,12 @@
 package api.service.hackatonv1.ecommerce.model;
 
+import lombok.*;
+
+@Getter
+@Setter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class ProductDto {
     private String id;
     private String name;

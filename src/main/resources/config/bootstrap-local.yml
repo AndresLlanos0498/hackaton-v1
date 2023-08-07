@@ -1,7 +1,7 @@
 azure:
   cosmosdb:
     uri: https://ecommercev1.documents.azure.com:443/
-    key: "lOmIfTbFXHb44MpKLJ3ZYbtbYEXIQLCtePqueFkEyXQLoAygR1FLpJ61ZfnYFMifRV1KTGWrxSVRACDb9N3Ymw=="
+    key: 'lOmIfTbFXHb44MpKLJ3ZYbtbYEXIQLCtePqueFkEyXQLoAygR1FLpJ61ZfnYFMifRV1KTGWrxSVRACDb9N3Ymw=='
     database: ToDoList
     collection: Items
     is-local: true
@@ -9,3 +9,6 @@ azure:
 
 server:
   port: 8030
+
+logging.level:
+  org.springframework.boot.autoconfigure.logging: DEBUG

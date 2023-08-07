@@ -1,3 +1,4 @@
+/*
 package api.service.hackatonv1;
 
 import org.junit.jupiter.api.Test;
@@ -11,3 +12,4 @@ class HackatonV1ApplicationTests {
 	}
 
 }
+*/

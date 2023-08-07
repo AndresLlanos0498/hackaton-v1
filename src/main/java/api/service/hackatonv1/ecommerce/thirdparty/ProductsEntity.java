@@ -8,12 +8,14 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 
+import java.io.Serializable;
+
 @Data
 @Document(collection = "Items")
 @NoArgsConstructor
 @AllArgsConstructor
 @SuppressFBWarnings
-public class ProductsEntity {
+public class ProductsEntity implements Serializable {
     @Id
     private String id;
     @PartitionKey
